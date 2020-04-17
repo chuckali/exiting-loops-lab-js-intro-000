@@ -12,4 +12,6 @@ funtion keepGoing(array, changeValue, skipValue){
     if (array[i] === skipValue)
 continue
 array[i] = changeValue
-}return array}
+}
+return array
+}
